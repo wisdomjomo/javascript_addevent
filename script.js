@@ -8,6 +8,7 @@ add.addEventListener("click", (preD) => {
     newinput.type = 'email';
     newinput.placeholder = 'Enter Email Address';
     newinput.classList.add('email-input');
+    newinput.value = 'demo@mail.com';
     form.insertBefore(newinput, add);
   }
   else {
